@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GT.BotService.Api", "Api\GT.BotService.Api\GT.BotService.Api.csproj", "{937546D2-8272-41D8-9797-301E59DFDCEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GT.BotService.Application", "Application\GT.BotService.Application\GT.BotService.Application.csproj", "{848622E4-1EC5-4C3F-9F85-DEB88E6C41A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GT.BotService.Domain", "Domain\GT.BotService.Domain\GT.BotService.Domain.csproj", "{A24F349D-29B3-4584-B8DD-37E5A8EB420D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GT.BotService.Infrastructure", "Infrastructure\GT.BotService.Infrastructure\GT.BotService.Infrastructure.csproj", "{BBE64E1C-A9D1-436B-9259-B7A716C10D79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GT.BotService.Test", "Test\GT.BotService.Test\GT.BotService.Test.csproj", "{E68AAAED-6C20-42DC-84A5-0B9B9CB28812}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{937546D2-8272-41D8-9797-301E59DFDCEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{937546D2-8272-41D8-9797-301E59DFDCEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{937546D2-8272-41D8-9797-301E59DFDCEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{937546D2-8272-41D8-9797-301E59DFDCEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{848622E4-1EC5-4C3F-9F85-DEB88E6C41A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{848622E4-1EC5-4C3F-9F85-DEB88E6C41A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{848622E4-1EC5-4C3F-9F85-DEB88E6C41A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{848622E4-1EC5-4C3F-9F85-DEB88E6C41A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A24F349D-29B3-4584-B8DD-37E5A8EB420D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A24F349D-29B3-4584-B8DD-37E5A8EB420D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A24F349D-29B3-4584-B8DD-37E5A8EB420D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A24F349D-29B3-4584-B8DD-37E5A8EB420D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBE64E1C-A9D1-436B-9259-B7A716C10D79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBE64E1C-A9D1-436B-9259-B7A716C10D79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBE64E1C-A9D1-436B-9259-B7A716C10D79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBE64E1C-A9D1-436B-9259-B7A716C10D79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E68AAAED-6C20-42DC-84A5-0B9B9CB28812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E68AAAED-6C20-42DC-84A5-0B9B9CB28812}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E68AAAED-6C20-42DC-84A5-0B9B9CB28812}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E68AAAED-6C20-42DC-84A5-0B9B9CB28812}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

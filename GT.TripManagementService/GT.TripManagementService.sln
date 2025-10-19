@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GT.TripManagementService.Api", "Api\GT.TripManagementService.Api\GT.TripManagementService.Api.csproj", "{08B2A448-37B7-4269-B2D9-C769EA64D9BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GT.TripManagementService.Application", "Application\GT.TripManagementService.Application\GT.TripManagementService.Application.csproj", "{A450F24D-81FB-43A7-8FE7-B3F9E9B538CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GT.TripManagementService.Domain", "Domain\GT.TripManagementService.Domain\GT.TripManagementService.Domain.csproj", "{BC1FAF36-94EE-49C8-80D0-802709F58DBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GT.TripManagementService.Infrastructure", "Infrastructure\GT.TripManagementService.Infrastructure\GT.TripManagementService.Infrastructure.csproj", "{7200E1D0-062F-4848-9705-A5ECD5C7A016}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GT.TripManagementService.Test", "Test\GT.TripManagementService.Test\GT.TripManagementService.Test.csproj", "{3B9798D6-ACCB-48F4-AE18-78B842321A76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08B2A448-37B7-4269-B2D9-C769EA64D9BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08B2A448-37B7-4269-B2D9-C769EA64D9BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08B2A448-37B7-4269-B2D9-C769EA64D9BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08B2A448-37B7-4269-B2D9-C769EA64D9BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A450F24D-81FB-43A7-8FE7-B3F9E9B538CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A450F24D-81FB-43A7-8FE7-B3F9E9B538CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A450F24D-81FB-43A7-8FE7-B3F9E9B538CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A450F24D-81FB-43A7-8FE7-B3F9E9B538CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC1FAF36-94EE-49C8-80D0-802709F58DBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC1FAF36-94EE-49C8-80D0-802709F58DBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC1FAF36-94EE-49C8-80D0-802709F58DBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC1FAF36-94EE-49C8-80D0-802709F58DBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7200E1D0-062F-4848-9705-A5ECD5C7A016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7200E1D0-062F-4848-9705-A5ECD5C7A016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7200E1D0-062F-4848-9705-A5ECD5C7A016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7200E1D0-062F-4848-9705-A5ECD5C7A016}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B9798D6-ACCB-48F4-AE18-78B842321A76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B9798D6-ACCB-48F4-AE18-78B842321A76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B9798D6-ACCB-48F4-AE18-78B842321A76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B9798D6-ACCB-48F4-AE18-78B842321A76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

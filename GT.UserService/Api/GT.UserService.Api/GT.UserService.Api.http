@@ -1,0 +1,6 @@
+@GT.WalletService.Api_HostAddress = http://localhost:5217
+
+GET {{GT.WalletService.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

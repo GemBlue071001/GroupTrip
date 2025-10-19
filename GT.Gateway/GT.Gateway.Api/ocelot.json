@@ -1,0 +1,37 @@
+{
+  "Routes": [
+    {
+      "RouteId": "auth-login",
+      "UpstreamPathTemplate": "/api/auth/login",
+      "UpstreamHttpMethod": [ "POST" ],
+      "DownstreamPathTemplate": "/api/auth/login",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        { "Host": "authservice.grouptrip.site", "Port": 443 }
+      ]
+    },
+    {
+      "RouteId": "notifications",
+      "UpstreamPathTemplate": "/api/notifications",
+      "UpstreamHttpMethod": [ "GET", "POST" ],
+      "DownstreamPathTemplate": "/api/notifications",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        { "Host": "notificationservice.grouptrip.site", "Port": 443 }
+      ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "token_type": "access",
+        "roles": "Traveller",
+      }
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://gateway.grouptrip.site",
+    "RequestIdKey": "RequestId",
+    "DownstreamScheme": "https"
+  }
+}

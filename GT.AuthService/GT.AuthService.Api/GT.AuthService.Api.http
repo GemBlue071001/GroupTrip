@@ -1,0 +1,6 @@
+@GT.AuthService.Api_HostAddress = http://localhost:5196
+
+GET {{GT.AuthService.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

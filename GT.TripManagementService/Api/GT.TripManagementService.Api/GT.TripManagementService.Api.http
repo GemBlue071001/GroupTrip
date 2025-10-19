@@ -1,0 +1,6 @@
+@GT.TripManagementService.Api_HostAddress = http://localhost:5171
+
+GET {{GT.TripManagementService.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

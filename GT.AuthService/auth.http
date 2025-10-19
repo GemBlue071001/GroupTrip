@@ -1,0 +1,62 @@
+### Confirm email
+GET http://localhost:5196/api/auth/confirmemail?email=test@example.com&token=xxxx
+Accept: application/json
+
+###
+
+### Reset password (thường cần query token/email)
+GET http://localhost:5196/api/auth/resetpassword?email=test@example.com&token=xxxx
+Accept: application/json
+
+###
+
+### Register
+POST http://localhost:5196/api/auth/register
+Content-Type: application/json
+Accept: application/json
+
+{
+  "username": "test",
+  "password": "Test@123",
+  "confirmPassword": "Test@123",
+  "email": "xhuyzdev@gmail.com",
+  "bankAccount": "12345678",
+  "bankName": "testbank",
+  "role": "TRAVELLER"
+}
+###
+
+### Login
+POST http://localhost:5196/api/auth/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "userName": "test",
+  "password": "Test@123"
+}
+###
+
+### Forgot password
+POST http://localhost:5196/api/auth/forgotpassword
+Content-Type: application/json
+Accept: application/json
+
+{
+  "email": "test@example.com"
+}
+
+###
+
+### Change password
+POST http://localhost:5196/api/auth/changepasswprd
+Content-Type: application/json
+Accept: application/json
+
+{
+  "email": "test@example.com",
+  "oldPassword": "123456",
+  "newPassword": "new123456",
+  "confirmNewPassword": "new123456"
+}
+
